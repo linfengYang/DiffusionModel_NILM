@@ -5,7 +5,7 @@ import numpy as np
 from engine.logger import Logger
 from engine.solver import Trainer
 from Data.build_dataloader import build_dataloader
-from Models.interpretable_diffusion.model_utils import unnormalize_to_zero_to_one
+from Models.diffusion.model_utils import unnormalize_to_zero_to_one
 from Utils.io_utils import load_yaml_config, seed_everything, merge_opts_to_config, instantiate_from_config
 
 
